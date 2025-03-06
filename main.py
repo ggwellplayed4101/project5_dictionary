@@ -9,8 +9,10 @@ def home():
 
 @app.route("/api/v1/<word>")
 def defintion(word):
-     return (word.upper())
-
+     reuslt_dictionary = {"defintion": (word.upper()), 
+                          "word": word}
+                          
+     return (reuslt_dictionary)
 
 app.route
 if __name__ == "__main__":
