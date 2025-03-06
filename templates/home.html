@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dictionary</title>
+
+    <style>
+        .flex-container {
+            display: flex;
+        }
+
+        .flex-container > div {
+            margin-right: 50px;
+        }
+    </style>
 </head>
 <body>
     <h1>Dictionary</h1>
-    <p>URL format:</p>
+    <p>URL format: http://127.0.0.1:5000/api/v1/{word}</p>
+
+    <div class="flex-container">
+        <div>URL example: http://127.0.0.1:5000/api/v1/sum</div>
+        <div>Returns SUM</div>
+    </div> 
 </body>
 </html>
