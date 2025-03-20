@@ -18,4 +18,5 @@ This application provides a simple API to fetch definitions of words. It process
 ## Technologies Used
 
 - Flask
+- Pandas
 
